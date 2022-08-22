@@ -1,0 +1,15 @@
+{
+	"Name": "ServerConfig.Pan_da",
+	"Description": "Kick player when too many.",
+	"Version": "0.0.1",
+	"LoadPriority": 0,
+    "Scripts": [
+        {
+			"Path": "pl.nut",
+			"RunOn": "SERVER && MP",
+			"ServerCallback": {
+				"After": "maxPlayer_Init"
+			}
+		}
+    ]
+}
